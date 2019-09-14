@@ -1,0 +1,25 @@
+@media (max-width: 375px){
+  .cabecero{
+  
+  }
+  .presupuesto{
+    transition: width 1s;
+  }
+  .presupuesto_ingreso--texto{
+    float: none;
+    text-align: center;
+  }
+  .presupuesto_ingreso--valor{
+    float: none;
+  }
+  .presupuesto_ingreso--porcentaje{
+    display: none;
+  }
+  .presupuesto_egreso--text{
+    float: none;
+    text-align: center;
+  }
+  .presupuesto_egreso--porcentaje{
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+@media (max-width: 375px){
+  option{
+    text-align: center;
+    align-content: center;
+  }
+  .agregar_contenedor {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+}
+  .agregar_tipo{
+    width: 100%;
+    margin: 0px;
+    transition: width 1s;
+  }
+  .agregar_descripcion{
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .agregar_valor{
+    transition: width 1s;
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .agregar_btn{
+    width:100%;
+    font-size: 4em;
+    margin: 0;
+    margin-top: 10px;
+    transition: width 1s, font-size 1s;
+  }
+}
